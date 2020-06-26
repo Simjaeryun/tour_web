@@ -23,8 +23,8 @@
   align-items: center;
   width: 440px;
   height: 55px;
-  border: 1px solid black;
-  border-radius: 50px;
+  border: 2px solid blue;
+  border-radius: 100px;
   text-align: center;
   padding-left: 20px;
 }
@@ -91,11 +91,17 @@ nav {
 
 .main_banner_container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main_banner_box {
   height: 487px;
   background: #67daaf;
+}
+
+.main_banner_text_hash {
+  color: orangered;
 }
 
 .main_banner_text_hash,
