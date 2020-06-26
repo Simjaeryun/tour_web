@@ -1,0 +1,125 @@
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1128px;
+  max-width: 1128px;
+  margin: auto;
+}
+
+.header_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.header_search_box {
+  margin-right: 85px;
+  display: flex;
+  align-items: center;
+  width: 440px;
+  height: 55px;
+  border: 1px solid black;
+  border-radius: 50px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.header_search_box input {
+  width: 330px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+}
+
+.header_status_btn_top_box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.header_status_btn_top {
+  font-size: 13px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.header_status_btn_card_box {
+  display: flex;
+}
+
+.header_status_btn_card {
+  margin-right: 35px;
+}
+
+.header_status_btn_icon {
+  margin-bottom: 5px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+/*header/>*/
+
+nav {
+  height: 85px;
+  background: #e9f2f7;
+  margin-bottom: 25px;
+}
+
+.nav_btn_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85px;
+}
+
+.nav_btn_box a {
+  text-decoration: none;
+  color: black;
+}
+
+/*nav/>*/
+
+.main_banner_box {
+  display: flex;
+  align-items: center;
+}
+
+.main_banner_container {
+  display: flex;
+}
+
+.main_banner_box {
+  height: 487px;
+  background: #67daaf;
+}
+
+.main_banner_text_hash,
+.main_banner_text_title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.main_banner_text_content {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: medium;
+  color: #3e3e3e;
+}
+
+.main_banner_text_content:last-child {
+  font-weight: bold;
+  color: black;
+}
+
+.main_banner_img_box {
+  margin-left: 100px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.47);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.47);
+}
