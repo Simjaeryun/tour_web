@@ -1,0 +1,118 @@
+.col-1 {
+  width: 8.333333%;
+}
+.col-2 {
+  width: 16.6666666%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.333333333%;
+}
+.col-5 {
+  width: 41.666666667%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33333334;
+}
+.col-8 {
+  width: 66.666666667;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.333333334%;
+}
+.col-11 {
+  width: 91.6666666667;
+}
+.col-12 {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+/*태블릿*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .col-t1 {
+    width: 8.333333%;
+  }
+  .col-t2 {
+    width: 16.6666666%;
+  }
+  .col-t3 {
+    width: 25%;
+  }
+  .col-t4 {
+    width: 33.333333333%;
+  }
+  .col-t5 {
+    width: 41.666666667%;
+  }
+  .col-t6 {
+    width: 50%;
+  }
+  .col-t7 {
+    width: 58.33333334;
+  }
+  .col-t8 {
+    width: 66.666666667;
+  }
+  .col-t9 {
+    width: 75%;
+  }
+  .col-t10 {
+    width: 83.333333334%;
+  }
+  .col-t11 {
+    width: 91.6666666667;
+  }
+  .col-t12 {
+    width: 100%;
+  }
+}
+/*모바일*/
+@media (max-width: 767px) {
+  .col-m1 {
+    width: 8.333333%;
+  }
+  .col-m2 {
+    width: 16.6666666%;
+  }
+  .col-m3 {
+    width: 25%;
+  }
+  .col-m4 {
+    width: 33.333333333%;
+  }
+  .col-m5 {
+    width: 41.666666667%;
+  }
+  .col-m6 {
+    width: 50%;
+  }
+  .col-m7 {
+    width: 58.33333334;
+  }
+  .col-m8 {
+    width: 66.666666667;
+  }
+  .col-m9 {
+    width: 75%;
+  }
+  .col-m10 {
+    width: 83.333333334%;
+  }
+  .col-m11 {
+    width: 91.6666666667;
+  }
+  .col-m12 {
+    width: 100%;
+  }
+}
