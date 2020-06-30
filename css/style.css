@@ -77,7 +77,6 @@ body {
 nav {
   height: 85px;
   background: #e9f2f7;
-  margin-bottom: 25px;
 }
 
 .nav_btn_box {
@@ -106,7 +105,7 @@ nav {
 }
 
 .main_banner_box {
-  height: 487px;
+  height: 600px;
   background: #67daaf;
 }
 
@@ -174,10 +173,16 @@ nav {
   border-style: none;
 }
 
+.main_content_title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
 .main_content_box {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 35px;
+  margin-bottom: 60px;
 }
 
 .main_content_img {
@@ -201,20 +206,27 @@ nav {
 
 .main_section_banner_container {
   background: #d4f2f7;
-  height: 477px;
+  height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .main_section_banner_box {
   display: flex;
+  align-items: center;
 }
 
 .main_section_banner_img {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.main_section_banner_img img {
+  width: 600px;
+  height: 500px;
 }
 
 .main_section_banner_guide {
@@ -301,4 +313,57 @@ nav {
 .main_section_banner_btn {
   font-size: 20px;
   font-weight: 600;
+}
+
+.main_section_content_box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main_section_content_title {
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+
+.main_section_content_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 500px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main_section_content_img img {
+  width: 150px;
+  height: 150px;
+}
+
+.main_section_content_card {
+  width: 20%;
+}
+
+.main_section_content_text_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_section_content_text_title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.main_section_content_text {
+  text-align: center;
+  opacity: 0.8;
+}
+
+footer {
+  height: 150px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 150px;
 }
