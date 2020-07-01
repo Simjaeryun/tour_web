@@ -86,6 +86,33 @@ nav {
   height: 85px;
 }
 
+.nav_btn {
+  position: relative;
+}
+
+.sub_nav_btn_box .sub_nav_btn:hover {
+  background-color: #ddd;
+}
+
+.sub_nav_btn_box {
+  padding: 20px;
+  position: absolute;
+  width: 120px;
+  top: 20px;
+  left: 5px;
+  display: none;
+  background: lightblue;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.sub_nav_btn {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+}
+
 .nav_btn_box a {
   text-decoration: none;
   color: black;
@@ -93,20 +120,18 @@ nav {
 
 /*nav/>*/
 
-.main_banner_box {
+.main_banner_container {
+  width: 1920px;
   display: flex;
   align-items: center;
+  height: 600px;
+  background: #67daaf;
 }
 
-.main_banner_container {
+.main_banner_box {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.main_banner_box {
-  height: 600px;
-  background: #67daaf;
 }
 
 .main_banner_text_hash {
@@ -133,10 +158,24 @@ nav {
 }
 
 .main_banner_img_box {
+  width: 542px;
+  height: 373px;
+  overflow: hidden;
   margin-left: 100px;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.47);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.47);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.47);
+  position: relative;
+}
+
+.main_banner_in {
+  width: 2168px;
+  height: 373px;
+  overflow: hidden;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .main_banner_btn_box {
@@ -275,6 +314,44 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.main_section_banner_trip_btn_sub_box {
+  z-index: 1;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  background: white;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: none;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.main_section_banner_trip_btn:nth-child(2)
+  .main_section_banner_trip_btn_sub_box {
+  width: 140px;
+}
+
+.main_section_banner_trip_btn_sub {
+  margin-top: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.main_section_banner_trip_btn_sub:hover {
+  background-color: lightblue;
+}
+
+.main_section_banner_trip_btn_sub:last-child {
+  margin-bottom: 15px;
 }
 
 .main_section_banner_people {
@@ -313,6 +390,9 @@ nav {
 .main_section_banner_btn {
   font-size: 20px;
   font-weight: 600;
+  border-style: none;
+  background: none;
+  cursor: pointer;
 }
 
 .main_section_content_box {

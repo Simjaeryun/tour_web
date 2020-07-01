@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-sclae-1.0" />
+
     <title>Travel_Web</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
@@ -61,8 +61,24 @@
         <div class="nav_btn_box">
           <div class="nav_btn"><a href="#">단체패키지</a></div>
           <div class="nav_btn"><a href="#">우리끼리</a></div>
-          <div class="nav_btn"><a href="#">항공</a></div>
-          <div class="nav_btn"><a href="#">패스/입장권</a></div>
+          <div class="nav_btn">
+            <a href="#">항공 <i class="fas fa-angle-down"></i></a>
+            <div class="sub_nav_btn_box">
+              <div class="sub_nav_btn">아시아나</div>
+              <div class="sub_nav_btn">대한항공</div>
+              <div class="sub_nav_btn">제주항공</div>
+              <div class="sub_nav_btn">에어아시아</div>
+            </div>
+          </div>
+          <div class="nav_btn">
+            <a href="#">패스/입장권 <i class="fas fa-angle-down"></i></a>
+            <div class="sub_nav_btn_box">
+              <div class="sub_nav_btn">아시아나</div>
+              <div class="sub_nav_btn">대한항공</div>
+              <div class="sub_nav_btn">제주항공</div>
+              <div class="sub_nav_btn">에어아시아</div>
+            </div>
+          </div>
           <div class="nav_btn"><a href="#">국내여행</a></div>
           <div class="nav_btn"><a href="#">해외여행</a></div>
           <div class="nav_btn"><a href="#">테마여행</a></div>
@@ -70,9 +86,9 @@
       </div>
     </nav>
     <main>
-      <div class="main_banner_box">
+      <div class="main_banner_container">
         <div class="container">
-          <div class="main_banner_container">
+          <div class="main_banner_box">
             <div class="main_banner_text_box">
               <div class="main_banner_text_hash">
                 #핫플 #제주 #한라봉
@@ -94,7 +110,33 @@
               </div>
             </div>
             <div class="main_banner_img_box">
-              <img src="img/banner_img.jpg" alt="제주도일러스트" />
+              <div class="main_banner_in">
+                <img
+                  class="img1"
+                  src="img/banner_img.jpg"
+                  alt="제주도일러스트"
+                />
+                <img
+                  class="img1"
+                  src="img/banner_img.jpg"
+                  alt="제주도일러스트"
+                />
+                <img
+                  class="img1"
+                  src="img/banner_img.jpg"
+                  alt="제주도일러스트"
+                />
+                <img
+                  class="img1"
+                  src="img/banner_img.jpg"
+                  alt="제주도일러스트"
+                />
+                <img
+                  class="img1"
+                  src="img/banner_img.jpg"
+                  alt="제주도일러스트"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -107,8 +149,8 @@
             <div class="main_banner_loading"></div>
           </div>
           <div class="main_banner_loading_btn_box">
-            <button type="button"></button>
-            <button type="button"></button>
+            <button class="prev" type="button"></button>
+            <button class="next" type="button"></button>
           </div>
         </div>
       </div>
@@ -173,10 +215,32 @@
                 </div>
                 <div class="main_section_banner_trip">
                   <div class="main_section_banner_trip_btn">
-                    인천/김포 출발
+                    출발지 선택&nbsp; <i class="fas fa-angle-down"></i>
+                    <div class="main_section_banner_trip_btn_sub_box">
+                      <div class="main_section_banner_trip_btn_sub">
+                        서울 출발
+                      </div>
+                      <div class="main_section_banner_trip_btn_sub">
+                        부산 출발
+                      </div>
+                      <div class="main_section_banner_trip_btn_sub">
+                        김포 출발
+                      </div>
+                    </div>
                   </div>
                   <div class="main_section_banner_trip_btn">
-                    여행 시작일 선택
+                    시작일 선택 &nbsp;<i class="fas fa-angle-down"></i>
+                    <div class="main_section_banner_trip_btn_sub_box">
+                      <div class="main_section_banner_trip_btn_sub">
+                        2020년7월시작
+                      </div>
+                      <div class="main_section_banner_trip_btn_sub">
+                        2020년8월시작
+                      </div>
+                      <div class="main_section_banner_trip_btn_sub">
+                        2020년9월시작
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="main_section_banner_people">
@@ -188,7 +252,9 @@
                   </div>
                 </div>
                 <div class="main_section_banner_btn_box">
-                  <div class="main_section_banner_btn">검색해보기</div>
+                  <button class="main_section_banner_btn" type="button">
+                    검색해보기
+                  </button>
                 </div>
               </div>
             </div>
@@ -274,5 +340,7 @@
         <div class="footer_number">010-5555-5555</div>
       </div>
     </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
