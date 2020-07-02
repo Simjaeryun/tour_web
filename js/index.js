@@ -10,7 +10,7 @@ $(function () {
   });
 });
 
-var count = 0;
+let count = 0;
 
 $(".prev").click(function (e) {
   e.preventDefault();
@@ -31,6 +31,7 @@ $(".prev").click(function (e) {
 
 $(".next").click(function (e) {
   e.preventDefault();
+  //이벤트를 취소할 수 있는 경우, 이벤트의 전파를 막지않고 그 이벤트를 취소합니다.
   count -= 1;
   if (count == -3) {
     alert("마지막입니다.");

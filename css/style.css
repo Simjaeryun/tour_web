@@ -420,6 +420,11 @@ nav {
   height: 150px;
 }
 
+.main_section_content_card_box {
+  display: flex;
+  justify-content: space-between;
+}
+
 .main_section_content_card {
   width: 20%;
 }
